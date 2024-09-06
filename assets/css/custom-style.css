@@ -1,0 +1,895 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.woff') format('woff'),
+        url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+p, h1, h2, h3, h4, td, th{
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+}
+img{
+    max-width: 100%;
+}
+
+/* header css */
+.main-banner {
+    background-image: url(../image/main-banner.jpg);
+    background-size: cover;
+    background-color: #000;
+}
+.logo, .color-yellow {
+    color: #DDB21B;
+    font-family: 'Bebas Neue';
+}
+.logo a{
+    color: #DDB21B;
+    text-decoration: none;
+}
+.header-line {
+    margin-top: -15px;
+}
+.lang img {
+    padding-right: 10px;
+}
+.game {
+    margin: 5px 6px 0 0px;
+    display: inline-block;
+}
+/* .top-btn a.btn-game.buy-btn {
+    box-shadow: 0px 0px 10px #FFC700;
+} */
+
+/* start banner section css */
+.heading h2 {
+    font-size: 68px;
+}
+.banner-text li {
+    background: transparent;
+    color: #fff;
+}
+.banner-sec p, .bg-price p, .ff-bebas, .content h5{
+    font-family: 'Bebas Neue';
+}
+ul.list-group.banner-text {
+    margin-top: 40px;
+}
+.content h5{
+color:rgba(255, 255, 255, 0.8);
+}
+.heading{
+    color: #DDB21B;
+    font-size: 24px;
+}
+.main-title-p {
+    color: #DDB21B;
+    font-size: 24px;
+    background: -webkit-linear-gradient(#FFC700, #FF8A00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+.banner-sec {
+    margin-top: 112px;
+    padding-bottom: 20px;
+}
+.image-icon {
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.content p {
+    font-family: "Roboto", sans-serif;
+    color: #D0D0D0;
+}
+.price-tab {
+    width: 100%;
+}
+.box-price {
+    justify-content: space-around;
+}
+.bg-price .box-price p{
+    color:#fff;
+}
+.title_harambe {
+    font-size: 32px;
+}
+
+/* end banner section css */ 
+
+/* Start lorem sction */
+.section-2.bg-black {
+    background: #000;
+    color: #fff;
+    padding: 84px 0 50px;
+}
+.border-corner {
+    border-image: linear-gradient( #F4C625,#ff6b00) 30;
+    border-width: 4px;
+    border-style: solid;
+    padding: 24px;
+    position: relative;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.border-corner::before {
+    content: "";
+    width: 27px;
+    height: 45px;
+    background: black;
+    position: absolute;
+    top: -17px;
+    left: -8px;
+    transform: rotate(45deg);
+    border-right: 5px solid #F4C625;
+}
+.border-corner::after {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background: black;
+    position: absolute;
+    bottom: -23px;
+    right: -24px;
+    transform: rotate(226deg);
+    border-right: 5px solid #ff6b00;
+
+}
+
+a.btn-game {
+    border: 1px solid #F4C625;
+    padding: 9px 24px;
+    text-decoration: none;
+    color: #F4C625;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Bebas Neue';
+    background: #161616;
+    position: relative;
+    border-radius: 8px 0px 15px 0px;
+    max-width: 135px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+a.btn-game span::before {
+    content: "";
+    background-image: url(../image/btn-left.png);
+    position: absolute;
+    width: 50px;
+    height: 13px;
+    left: -2px;
+    top: -1px;
+    background-repeat: no-repeat;
+}
+a.btn-game span::after {
+    content: "";
+    background-image: url(../image/btn-right.png);
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    right: -1px;
+    bottom: 1px;
+    background-repeat: no-repeat;
+}
+a.btn-game:hover {
+    background: #F4C625;
+    color: #fff;
+}
+a.btn-game.buy-btn {
+    background: #F4C625;
+    color: #000;
+    max-width: 130px;
+    width: 100%;
+    margin-left: 13px;
+}
+a.btn-game.buy-btn span::after {
+    background-image: url(../image/btn-right-black.png);
+    right: -2px;
+    bottom: 0px;
+}
+a.btn-game.buy-btn:hover {
+    background: #000;
+    color: #fff;
+}
+a.btn-game.buy-btn:hover span::before {
+   display: none;
+}
+ul.list-group.banner-text li {
+    margin-bottom: 15px;
+}
+.text-white.passive {
+    font-size: 52px;
+    padding-right: 107px;
+}
+.bg-table {
+    background: #161616;
+    border: 2px solid #db8803;
+    padding: 24px 5px;
+    border-radius: 14px 1px 49px 0px;
+    position: relative;
+}
+.price-tab th {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+}
+.price-tab tbody tr, .box-price {
+    border: 1px solid rgba(244, 198, 37, 0.6);
+    position: relative;
+}
+.price-tab tr td {
+    padding: 12px;
+    color: rgba(255,255,255,0.6);
+    font-size: 18px;
+}
+.price-tab tbody tr td:first-child:before, .box-price::before {
+    content: "";
+    width: 26px;
+    height: 19px;
+    background: #161616;
+    position: absolute;
+    top: -13px;
+    left: -16px;
+    transform: rotate(45deg);
+    border-right: 1px solid rgba(244, 198, 37, 0.6);
+}
+.price-tab tbody tr td:last-child:after, .box-price:after {
+    content: "";
+    width: 26px;
+    height: 16px;
+    background: #161616;
+    position: absolute;
+    bottom: -13px;
+    right: -17px;
+    transform: rotate(45deg);
+    border-left: 1px solid rgba(244, 198, 37, 0.6);
+}
+.price-tab tbody tr td:last-child::before, .box-price .box-1:last-child::before {
+    content: "";
+    background-image: url(../image/btn-right.png);
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    right: -1px;
+    bottom: 1px;
+    background-repeat: no-repeat;
+}
+.box-price .box-1:first-child::before {
+    content: "";
+    background-image: url(../image/arrow.png);
+    position: absolute;
+    width: 75px;
+    height: 31px;
+    background-repeat: no-repeat;
+    left: 41px;
+    margin: auto;
+    right: 0;
+    top: 22px;
+}
+.price-tab tr td span {
+    color: green;
+    margin-left: 8px;
+}
+.price-tab tr th {
+    padding-bottom: 7px;
+}
+.box-1, .bg-price .box-1 p {
+    color: rgba(255,255,255,0.6);
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.bg-price .box-1 span{
+    font-size: 24px;
+    font-family: 'Bebas Neue';
+    color: #bdbdbd;
+} 
+.wrapper-table{
+    width: 90%;
+    margin: 0px auto;
+}
+.box-price {
+    width: 100%;
+    margin: 24px auto;
+}
+.box-1 {
+    width: 50%;
+    padding: 8px 0 4px;
+}
+.box-price .box-1:first-child {
+    border-right: 1px solid rgba(244, 198, 37, 0.6);
+}
+.checkbox {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+label.label-container {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.label-container{
+display: block;
+position: relative;
+padding-left: 35px;
+cursor: pointer;
+font-size: 22px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.label-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border: 1px solid #f4c625;
+}
+  
+  /* On mouse-over, add a grey background color */
+  .label-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .label-container input:checked ~ .checkmark {
+    background-color: #7e6715;
+}
+  .checkbox {
+    text-align: left;
+}
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the checkmark when checked */
+  .label-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .label-container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkout-btn a.btn-game.buy-btn {
+    max-width: 80%;
+    display: inline-block;
+    font-size: 32px;
+    padding: 3px 0;
+    margin: 25px 0 7px;
+}
+p.help {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+p.help a {
+color:rgba(244, 198, 37, 0.9);
+}
+.checkout-btn a.btn-game span::before {
+    content: "";
+    background-image: url(../image/check-left.png);
+    position: absolute;
+    width: 79px;
+    height: 24px;
+    left: -3px;
+    top: -3px;
+    background-repeat: no-repeat;
+}
+.price-tab tbody tr td:first-child:before, .box-price::before {
+    content: "";
+    width: 26px;
+    height: 19px;
+    background: #161616;
+    position: absolute;
+    top: -13px;
+    left: -16px;
+    transform: rotate(45deg);
+    border-right: 1px solid rgba(244, 198, 37, 0.6);
+}
+.checkout-btn a.btn-game:after {
+    content: "";
+    width: 7px;
+    height: 21px;
+    background: #161616;
+    position: absolute;
+    bottom: -6px;
+    right: 1px;
+    transform: rotate(45deg);
+    border-left: 1px solid #F4C625;
+}
+
+.checkout-btn a.btn-game span::after {
+    background-image: url(../image/check-right.png);
+    right: -3px;
+    bottom: -1px;
+    width: 116px;
+    height: 31px;
+    z-index: 111;
+}
+.checkbox.radom label {
+    margin: 0 auto;
+    display: table;
+}
+.checkbox.radom .checkmark {
+    height: 22px;
+    width: 22px;
+    background-color: transparent;
+    border-top-left-radius: 0;
+    border: 2px solid #ff8770;
+    top: 4px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.checkbox.radom label {
+    font-size: 20px;
+    color: #fff;
+}
+.w-paper a {
+    margin: 15px 6px 0;
+    max-width: 231px;
+    font-size: 20px;
+    color: #b9b9b9;
+}
+p.help + p {
+    margin-bottom: 0;
+}
+.w-paper a.btn-game span::after {
+    background-image: url(../image/w-paper-r.png);
+    width: 116px;
+    height: 35px;
+    right: 0px;
+    bottom: -4px;
+}
+.w-paper a.btn-game:after {
+    content: "";
+    width: 28px;
+    height: 22px;
+    background: #161616;
+    position: absolute;
+    bottom: -14px;
+    right: -16px;
+    transform: rotate(45deg);
+    border-left: 1px solid #F4C625;
+}
+.w-paper a.btn-game span::before {
+    content: "";
+    background-image: url(../image/btn-left.png);
+    position: absolute;
+    width: 50px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    background-repeat: no-repeat;
+}
+
+.bg-table::after {
+    content: "";
+    width: 46px;
+    height: 54px;
+    background: #000000;
+    position: absolute;
+    bottom: -23px;
+    right: -20px;
+    transform: rotate(45deg);
+    border-left: 2px solid #db8803;
+}
+.bg-table::before {
+    content: "";
+    width: 26px;
+    height: 19px;
+    background: #0c0b0b;
+    position: absolute;
+    top: -13px;
+    left: -16px;
+    transform: rotate(45deg);
+    border-right: 2px solid #db8803;
+}
+.progress-bar{
+background-image: linear-gradient(to right, #FFC700 0%, #FF6B00 100%);
+}
+.progress-sec .progress {
+    height: 6px;
+    width: 57%;
+    margin-top: 9px;
+}
+.progress-sec {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+.text-p span {
+    color: #f4ac25;
+}
+.text-p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+.btn-box a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0 14px;
+    display: inline-block;
+}
+.btn-box a.btn-game.buy-btn {
+    max-width: 100%;
+}
+.btn-box .checkout-btn {
+    margin: 77px 0 35px;
+}
+p.img-icon {
+    margin: 6px 0 24px;
+}
+
+/* end banner section css */
+
+/********** timer css ***********/
+.countdown {
+    margin: 6px auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+    
+  }
+  
+  .timer,
+  .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .timer h3 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  
+  .signup h1 {
+    max-width: 350px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+  }
+  
+  .counter {
+    display: flex;
+    max-width: fit-content;
+    gap: 0.75em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+  .counter__box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25rem;
+  }
+  
+  .counter__time {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    background: rgba(244, 198, 37, 0.1);
+    width: 88px;
+    border: 1px solid #604b06;
+    border-radius: 10px 1px 15px 0px;
+    color:#F8D84C;
+    /* background-image: linear-gradient(to top, #5b50272d 0%, #6b5f37 100%); */
+}
+p.counter__duration {
+    font-size: 18px;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 0;
+}
+
+.three-col .border-corner {
+    border-width: 1px;
+    margin-bottom: 32px;
+}
+.three-col .border-corner::before {
+     border-right: 1px solid #F4C625;
+}
+.three-col .border-corner::after {
+    border-right: 1px solid #ff6b00;
+}
+.border-corner h3 + p {
+    font-family: "Roboto", sans-serif;
+    color: #D0D0D0;
+}
+.hurry{
+    font-family: "Roboto", sans-serif;
+}
+a {
+    box-shadow: inset 0 0 0 0 #cab302;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+  }
+  a:hover {
+    color: #fff;
+    box-shadow: inset 450px 0 0 0 #cab302;;
+  }
+  .top-btn a:hover {
+    box-shadow: inset 150px 0 0 0 #cab302;;
+  }
+  .checkout-btn a.btn-game:hover span::after {
+  display: none;
+}
+.border-corner:hover {
+    background: #836b18;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.border-corner:hover .checkout-btn a.btn-game:after {
+    background: #836b18;
+}
+
+/* start inverstor section css */
+
+section.investor-sec {
+    background: #000;
+}
+h2.title_invest {
+    color: rgba(244, 198, 37, 1);
+    font-size: 68px;
+}
+section.investor-sec p {
+    color: #B8B8BA;
+    font-family: "Roboto", sans-serif;
+}
+.top-5 table th {
+    color: #B8B8BA;
+}
+.top-5 table td {
+    width: 20%;
+}
+img.invest-img {
+    max-width: calc(100% + 138px);
+    position: relative;
+    top: -44px;
+    z-index: 0;
+}
+.top-5 {
+    position: relative;
+    text-align: center;
+}
+tr.bg-tr {
+    background-color: transparent;
+    background-image: url(../image/results.png);
+    background-repeat: no-repeat;
+    background-size: 103% 100%;
+    height: 87px;
+}
+tr.bg1-tr {
+    background-color: transparent;
+    background-image: url(../image/line-bottom.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 108px;
+    background-position: 100% 80%;
+}
+tr.bg-tr img {
+    position: relative;
+    top: 4px;
+    left: -2px;
+}
+.top-5 table td:first-child {
+    text-align: left;
+}
+.top-5 table td {
+    width: 20%;
+    font-size: 20px;
+}
+.investor-sec table {
+    width: 100%;
+    margin-top: 43px;
+}
+.title-main h2 {
+    font-size: 68px;
+    color: #F4C625;
+    padding-left: 136px;
+}
+
+/* start roadmap section css  */
+
+section.roadmap-sec {
+    background: #000;
+    color: #fff;
+    padding: 96px 0 0;
+}
+.inner-item {
+    text-align: center;
+    padding: 0 44px;
+}
+.inner-item p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto", sans-serif;
+    border-bottom: 2px solid rgba(244, 198, 37, 1);
+    padding-bottom: 10px;
+    position: relative;
+}
+.inner-item p::before {
+    content: "";
+    width: 59px;
+    height: 2px;
+    background: rgb(244 198 37);
+    position: absolute;
+    left: -47px;
+    bottom: -22px;
+    transform: rotate(134deg);
+}
+.inner-item p::after {
+    content: "";
+    width: 65px;
+    height: 57px;
+    background-image: url(../image/plus.svg);
+    position: absolute;
+    left: -71px;
+    bottom: -84px;
+    z-index: 9;
+    background-repeat: no-repeat;
+}
+#main-carousel .owl-stage-outer {
+    padding-bottom: 79px;
+    padding-left: 28px;
+}
+.inner-item h3 {
+    font-size: 20px;
+    color: #F4C625;
+}
+.title-main {
+    margin-bottom: 35px;
+}
+.inner-item h5 {
+    font-size: 14px;
+}
+.inner-item h5 span{
+color:rgba(244, 198, 37, 1);
+}
+#main-carousel button.owl-next::after {
+    content: "";
+    background-image: url(../image/a-right.svg);
+    width: 48px;
+    height: 45px;
+    position: absolute;
+    background-color: #000;
+    border: 1px solid rgba(244, 198, 37, 0.3);
+    box-shadow: 0px 0px 20px rgb(172 149 72);
+}
+#main-carousel button.owl-prev::after {
+    content: "";
+    background-image: url(../image/a-left.svg);
+    width: 48px;
+    height: 45px;
+    position: absolute;
+    right: 22px;
+    background-color: #000;
+    border: 1px solid rgba(244, 198, 37, 0.3);
+    box-shadow: 0px 0px 20px rgb(172 149 72);
+}
+#main-carousel .owl-nav button span {
+    font-size: 0;
+}
+#main-carousel .owl-nav {
+    position: absolute;
+    top: -107px;
+    right: 147px;
+}
+.line {
+    border-top: 2px solid rgba(244, 198, 37, 1);
+    margin: -40px 0 0;
+}
+.plus {
+    position: relative;
+    top: -24px;
+}
+.plus-box {
+    max-width: 796px;
+    margin: 72px auto 54px;
+}
+.plus p {
+    border: 0;
+}
+.plus p::before, .plus p::after {
+display: none;
+}
+.plus h3 {
+    border-top: 2px solid rgba(244, 198, 37, 1);
+    padding-top: 16px;
+}
+.plus h3::before {
+    content: "";
+    width: 59px;
+    height: 2px;
+    background: rgb(244 198 37);
+    position: absolute;
+    left: -10px;
+    top: -17px;
+    transform: rotate(34deg);
+}
+.plus h3::after {
+    content: "";
+    width: 65px;
+    height: 57px;
+    background-image: url(../image/plus.svg);
+    position: absolute;
+    left: -45px;
+    top: -78px;
+    z-index: 9;
+    background-repeat: no-repeat;
+}
+
+/* Footer css */
+
+footer{
+    background-color: #000;
+    text-align: center;
+}
+.logo-f {
+    margin-top: -43px;
+}
+.footer-btn {
+    margin: 25px 0 0;
+}
+.footer-btn a.btn-game {
+    padding: 9px 11px;
+}
+.footer-link li.list-group-item {
+    background: transparent;
+    border-right: 1px solid rgba(51, 51, 51, 1);
+    padding: 0px 28px;
+    line-height: 22px;
+}
+.footer-link li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+}
+.footer-link {
+    justify-content: center;
+    margin: 45px 0;
+}

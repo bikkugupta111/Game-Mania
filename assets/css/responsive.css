@@ -1,0 +1,202 @@
+@media screen and (min-width: 1300px){
+    .container{
+        max-width: 1200px;
+    }
+    section.roadmap-sec .container {
+        max-width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1024px) {
+    .w-paper a {
+         max-width: 45%;
+      }
+      .title_harambe {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .game {
+        width: 40%;
+    }
+    .lang img {
+        width: 24%;
+    }
+    .counter__time {
+        width: 64px;
+
+    }
+    .section-2.bg-black {
+        padding: 84px 21px 0px;
+    }
+    .text-white.passive {
+        font-size: 32px;
+        padding-right: 0;
+    }
+    .checkout-btn a.btn-game.buy-btn {
+        font-size: 22px;
+    }
+    .banner-sec {
+        margin-top: 55px;
+    }
+    .header-line {
+        margin-top: 0px;
+    }
+    .w-paper a.btn-game {
+          max-width: 45%;
+           width: 50%;
+    }
+    .three-col .border-corner{
+        padding: 9px 14px 0;
+     }
+     .title_harambe {
+        font-size: 24px;
+    }
+    .title-main h2 {
+        font-size: 41px;
+        padding-left: 0;
+    }
+    #main-carousel .owl-nav {
+           top: -89px;
+       }
+
+    #main-carousel .owl-stage-outer {
+            padding-left: 0;
+    }
+    img.invest-img {
+        max-width: 100%;
+       }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .inner-item p::after {
+         left: -64px;
+    }
+    .inner-item {
+        padding: 0 66px;
+    }
+    .top-btn {
+        padding: 0;
+    }
+    a.btn-game {
+        padding: 9px 5px;
+        max-width: 115px;
+    }
+    a.btn-game.buy-btn {
+        max-width: 115px;
+        margin-left: 4px;
+    }
+    p.help {
+        font-size: 11px;
+    }
+    .plus-box {
+        max-width: 88%;
+    }
+    .plus-box  .inner-item {
+        padding: 0 40px;
+    }
+    .plus h3::before {
+        left: -13px;
+        top: -17px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .heading h2 {
+        font-size: 51px;
+        text-align: center;
+    }
+.logo.pt-4 {
+        padding: 0 !important;
+    }
+   .pt-4.top-btn {
+        text-align: center;
+        padding-top: 5px !important;
+    }
+    .bg-table::after {
+        width: 15px;
+        height: 54px;
+        bottom: -13px;
+        right: 8px;
+    }
+    .border-corner::after {
+        width: 39px;
+        height: 22px;
+        bottom: -19px;
+        right: -24px;
+    }
+    .border-corner {
+        margin-bottom: 37px;
+    }
+    .border-corner::after {
+        bottom: -8px;
+        right: -7px;
+        width: 14px;
+        height: 14px;
+    }
+    .footer-link li.list-group-item {
+        padding: 0px 9px;
+    }
+    .cols-12.d-flex.plus-box {
+        flex-flow: column;
+    }
+    .plus:last-child {
+        display: none;
+    }
+    .plus h3::after {
+           left: -10px;
+       }
+       .inner-item p::after {
+           left: -55px;
+       }
+       .plus h3::before {
+        width: 49px;
+         left: 4px;
+        top: -18px;
+        transform: rotate(49deg);
+    }
+    .title-main h2 {
+        font-size: 35px;
+             text-align: center;
+    }
+    #main-carousel .owl-nav {
+        top: -67px;
+        left: 126px;
+    }
+    #main-carousel button.owl-prev::after {
+          right: -28px;
+    }
+    .title-main {
+        margin-bottom: 62px;
+    }
+    .top-5 table td {
+        font-size: 13px;
+    }
+    tr.bg-tr {
+            background-size: auto;
+    }
+    h1.display-6.logo.pt-4 {
+        text-align: right;
+    }
+    .w-paper a {
+         font-size: 17px;
+    }
+    .btn-box .checkout-btn {
+        margin: 8px 0 26px;
+    }
+    .section-2.bg-black {
+        padding: 48px 0px 0px;
+    }
+    .heading {
+         margin-bottom: 20px;
+    }
+    h2.title_invest {
+              font-size: 49px;
+    }
+    section.roadmap-sec {
+        padding: 47px 0 0;
+    }
+}
